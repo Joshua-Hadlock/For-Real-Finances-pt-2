@@ -1,0 +1,67 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+  }
+
+
+#navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    position: fixed;
+    background-color: orange;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100%;
+    z-index: 2;
+}
+
+.nolink{
+    display: flex;
+    align-self: flex-start;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+.link {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+
+}
+.link a{
+ text-decoration: none;
+ color: white;
+ padding-right: 10px;
+ padding-top: 20px;
+}
+
+body {
+    background-color: rgb(255, 254, 241);
+}
+
+#information {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    padding: 20px;
+    margin: 80px auto;
+}
+
+.box {
+    border:2px solid orange;
+    width: 300px;
+    padding: 20px;
+    margin: 20px 10px;
+    background-color: white;
+}
+
+.buttonpress {
+    background-color: orange;
+    width: 300px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
